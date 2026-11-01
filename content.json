@@ -1,0 +1,3087 @@
+{
+  "schemaVersion": 1,
+  "trip": {
+    "name": "Magical Orlando Adventure",
+    "outbound": "2026-11-02",
+    "home": "2026-11-16",
+    "nights": 14,
+    "travellers": [],
+    "resort": "",
+    "heightCm": 135
+  },
+  "parks": [
+    {
+      "id": "getting-there",
+      "name": "Getting there",
+      "groups": [
+        {
+          "heading": "Before we go",
+          "items": [
+            {
+              "id": "getting-there-passport-packed",
+              "label": "Passport packed",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "getting-there-suitcase-weighed",
+              "label": "Suitcase weighed",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "getting-there-chose-my-aeroplane-snacks",
+              "label": "Chose my aeroplane snacks",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "getting-there-packed-one-toy-for-the-flight",
+              "label": "Packed one toy for the flight",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "getting-there-counted-the-sleeps",
+              "label": "Counted the sleeps",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            }
+          ]
+        },
+        {
+          "heading": "At Heathrow",
+          "items": [
+            {
+              "id": "getting-there-found-our-flight-on-the-big-board",
+              "label": "Found our flight on the big board",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "getting-there-went-through-security",
+              "label": "Went through security",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "getting-there-watched-a-plane-take-off",
+              "label": "Watched a plane take off",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "getting-there-bought-something-at-the-airport",
+              "label": "Bought something at the airport",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            }
+          ]
+        },
+        {
+          "heading": "In the sky",
+          "items": [
+            {
+              "id": "getting-there-sat-by-the-window",
+              "label": "Sat by the window",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "getting-there-watched-a-film",
+              "label": "Watched a film",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "getting-there-had-my-dinner-on-a-tiny-tray",
+              "label": "Had my dinner on a tiny tray",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "getting-there-saw-clouds-from-above",
+              "label": "Saw clouds from above",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "getting-there-slept-on-the-plane",
+              "label": "Slept on the plane",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "getting-there-spotted-florida-out-of-the-window",
+              "label": "Spotted Florida out of the window",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            }
+          ]
+        },
+        {
+          "heading": "Landing in Orlando",
+          "items": [
+            {
+              "id": "getting-there-felt-the-warm-air-outside",
+              "label": "Felt the warm air outside",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "getting-there-found-our-cases",
+              "label": "Found our cases",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "getting-there-first-palm-tree-spotted",
+              "label": "First palm tree spotted",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "getting-there-arrived-at-all-star-movies",
+              "label": "Arrived at All-Star Movies",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "getting-there-found-our-room",
+              "label": "Found our room",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "getting-there-jumped-on-the-bed",
+              "label": "Jumped on the bed",
+              "note": "once",
+              "heightCm": null,
+              "stars": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "magic-kingdom",
+      "name": "Magic Kingdom",
+      "groups": [
+        {
+          "heading": "Main Street, U.S.A.",
+          "items": [
+            {
+              "id": "magic-kingdom-walked-under-the-station-and-saw-the-castle",
+              "label": "Walked under the station and saw the castle",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "magic-kingdom-rode-a-main-street-vehicle",
+              "label": "Rode a Main Street vehicle",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            }
+          ]
+        },
+        {
+          "heading": "Adventureland",
+          "items": [
+            {
+              "id": "magic-kingdom-jungle-cruise",
+              "label": "Jungle Cruise",
+              "note": "the Jingle Cruise in November",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "magic-kingdom-pirates-of-the-caribbean",
+              "label": "Pirates of the Caribbean",
+              "note": "",
+              "heightCm": null,
+              "stars": 3
+            },
+            {
+              "id": "magic-kingdom-the-magic-carpets-of-aladdin",
+              "label": "The Magic Carpets of Aladdin",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "magic-kingdom-walt-disneys-enchanted-tiki-room",
+              "label": "Walt Disney's Enchanted Tiki Room",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "magic-kingdom-climbed-the-swiss-family-treehouse",
+              "label": "Climbed the Swiss Family Treehouse",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            }
+          ]
+        },
+        {
+          "heading": "Frontierland",
+          "items": [
+            {
+              "id": "magic-kingdom-big-thunder-mountain-railroad",
+              "label": "Big Thunder Mountain Railroad",
+              "note": "",
+              "heightCm": 102,
+              "stars": 4
+            },
+            {
+              "id": "magic-kingdom-country-bear-musical-jamboree",
+              "label": "Country Bear Musical Jamboree",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            }
+          ]
+        },
+        {
+          "heading": "Liberty Square",
+          "items": [
+            {
+              "id": "magic-kingdom-the-haunted-mansion",
+              "label": "The Haunted Mansion",
+              "note": "",
+              "heightCm": null,
+              "stars": 4
+            },
+            {
+              "id": "magic-kingdom-the-hall-of-presidents",
+              "label": "The Hall of Presidents",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            }
+          ]
+        },
+        {
+          "heading": "Fantasyland",
+          "items": [
+            {
+              "id": "magic-kingdom-seven-dwarfs-mine-train",
+              "label": "Seven Dwarfs Mine Train",
+              "note": "",
+              "heightCm": 97,
+              "stars": 3
+            },
+            {
+              "id": "magic-kingdom-peter-pans-flight",
+              "label": "Peter Pan's Flight",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "magic-kingdom-its-a-small-world",
+              "label": "\"it's a small world\"",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "magic-kingdom-enchanted-tales-with-belle",
+              "label": "Enchanted Tales with Belle",
+              "note": "your namesake",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "magic-kingdom-under-the-sea-journey-of-the-little-mermaid",
+              "label": "Under the Sea: Journey of The Little Mermaid",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "magic-kingdom-the-many-adventures-of-winnie-the-pooh",
+              "label": "The Many Adventures of Winnie the Pooh",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "magic-kingdom-mickeys-philharmagic",
+              "label": "Mickey's PhilharMagic",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "magic-kingdom-dumbo-the-flying-elephant",
+              "label": "Dumbo the Flying Elephant",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "magic-kingdom-the-barnstormer",
+              "label": "The Barnstormer",
+              "note": "",
+              "heightCm": 89,
+              "stars": 3
+            },
+            {
+              "id": "magic-kingdom-prince-charming-regal-carrousel",
+              "label": "Prince Charming Regal Carrousel",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "magic-kingdom-mad-tea-party",
+              "label": "Mad Tea Party",
+              "note": "spin it as fast as you dare",
+              "heightCm": null,
+              "stars": 3
+            }
+          ]
+        },
+        {
+          "heading": "Tomorrowland",
+          "items": [
+            {
+              "id": "magic-kingdom-tron-lightcycle-run",
+              "label": "TRON Lightcycle / Run",
+              "note": "challenge four",
+              "heightCm": 122,
+              "stars": 5
+            },
+            {
+              "id": "magic-kingdom-space-mountain",
+              "label": "Space Mountain",
+              "note": "",
+              "heightCm": 112,
+              "stars": 5
+            },
+            {
+              "id": "magic-kingdom-buzz-lightyears-space-ranger-spin",
+              "label": "Buzz Lightyear's Space Ranger Spin",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "magic-kingdom-tomorrowland-speedway",
+              "label": "Tomorrowland Speedway",
+              "note": "drive a real car",
+              "heightCm": 81,
+              "stars": 2
+            },
+            {
+              "id": "magic-kingdom-astro-orbiter",
+              "label": "Astro Orbiter",
+              "note": "",
+              "heightCm": null,
+              "stars": 3
+            },
+            {
+              "id": "magic-kingdom-peoplemover",
+              "label": "PeopleMover",
+              "note": "the best rest in the park",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "magic-kingdom-monsters-inc-laugh-floor",
+              "label": "Monsters, Inc. Laugh Floor",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            }
+          ]
+        },
+        {
+          "heading": "Shows and sparkle",
+          "items": [
+            {
+              "id": "magic-kingdom-festival-of-fantasy-parade",
+              "label": "Festival of Fantasy Parade",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "magic-kingdom-happily-ever-after-fireworks",
+              "label": "Happily Ever After fireworks",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "magic-kingdom-a-castle-stage-show",
+              "label": "A castle stage show",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "magic-kingdom-saw-the-castle-at-night-all-lit-up",
+              "label": "Saw the castle at night, all lit up",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "epcot",
+      "name": "EPCOT",
+      "groups": [
+        {
+          "heading": "The big rides",
+          "items": [
+            {
+              "id": "epcot-spaceship-earth",
+              "label": "Spaceship Earth",
+              "note": "inside the golf ball",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "epcot-guardians-of-the-galaxy-cosmic-rewind",
+              "label": "Guardians of the Galaxy: Cosmic Rewind",
+              "note": "",
+              "heightCm": 107,
+              "stars": 5
+            },
+            {
+              "id": "epcot-test-track",
+              "label": "Test Track",
+              "note": "",
+              "heightCm": 102,
+              "stars": 4
+            },
+            {
+              "id": "epcot-mission-space",
+              "label": "Mission: SPACE",
+              "note": "pick the green side",
+              "heightCm": 102,
+              "stars": 3
+            },
+            {
+              "id": "epcot-soarin-around-the-world",
+              "label": "Soarin' Around the World",
+              "note": "",
+              "heightCm": 102,
+              "stars": 3
+            },
+            {
+              "id": "epcot-frozen-ever-after",
+              "label": "Frozen Ever After",
+              "note": "Norway",
+              "heightCm": null,
+              "stars": 3
+            },
+            {
+              "id": "epcot-remys-ratatouille-adventure",
+              "label": "Remy's Ratatouille Adventure",
+              "note": "France",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "epcot-gran-fiesta-tour",
+              "label": "Gran Fiesta Tour",
+              "note": "Mexico",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "epcot-living-with-the-land",
+              "label": "Living with the Land",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "epcot-the-seas-with-nemo-friends",
+              "label": "The Seas with Nemo & Friends",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "epcot-journey-of-water-inspired-by-moana",
+              "label": "Journey of Water, Inspired by Moana",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            }
+          ]
+        },
+        {
+          "heading": "Shows and stops",
+          "items": [
+            {
+              "id": "epcot-turtle-talk-with-crush",
+              "label": "Turtle Talk with Crush",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "epcot-the-american-adventure",
+              "label": "The American Adventure",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "epcot-impressions-de-france",
+              "label": "Impressions de France",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "epcot-awesome-planet",
+              "label": "Awesome Planet",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "epcot-club-cool",
+              "label": "Club Cool",
+              "note": "taste the odd fizzy drinks",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "epcot-luminous-fireworks-over-the-lake",
+              "label": "Luminous fireworks over the lake",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            }
+          ]
+        },
+        {
+          "heading": "Around the world in one day",
+          "items": [
+            {
+              "id": "epcot-mexico",
+              "label": "Mexico",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "epcot-norway",
+              "label": "Norway",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "epcot-china",
+              "label": "China",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "epcot-germany",
+              "label": "Germany",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "epcot-italy",
+              "label": "Italy",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "epcot-the-american-adventure-2",
+              "label": "The American Adventure",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "epcot-japan",
+              "label": "Japan",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "epcot-morocco",
+              "label": "Morocco",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "epcot-france",
+              "label": "France",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "epcot-united-kingdom",
+              "label": "United Kingdom",
+              "note": "home!",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "epcot-canada",
+              "label": "Canada",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            }
+          ]
+        },
+        {
+          "heading": "World Showcase missions",
+          "items": [
+            {
+              "id": "epcot-collected-a-kidcot-card-in-every-country",
+              "label": "Collected a Kidcot card in every country",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "epcot-said-hello-in-a-language-i-dont-speak",
+              "label": "Said hello in a language I don't speak",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "epcot-found-the-red-telephone-box-in-the-uk",
+              "label": "Found the red telephone box in the UK",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "epcot-watched-the-drummers-in-japan",
+              "label": "Watched the drummers in Japan",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "epcot-found-a-hidden-mickey-somewhere",
+              "label": "Found a hidden Mickey somewhere",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "epcot-tried-a-snack-from-another-country",
+              "label": "Tried a snack from another country",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "epcot-talked-to-a-cast-member-about-their-home",
+              "label": "Talked to a cast member about their home",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "epcot-walked-the-whole-lap-without-a-moan",
+              "label": "Walked the whole lap without a moan",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hollywood-studios",
+      "name": "Disney's Hollywood Studios",
+      "groups": [
+        {
+          "heading": "Star Wars: Galaxy's Edge",
+          "items": [
+            {
+              "id": "hollywood-studios-star-wars-rise-of-the-resistance",
+              "label": "Star Wars: Rise of the Resistance",
+              "note": "",
+              "heightCm": 102,
+              "stars": 4
+            },
+            {
+              "id": "hollywood-studios-millennium-falcon-smugglers-run",
+              "label": "Millennium Falcon: Smugglers Run",
+              "note": "",
+              "heightCm": 97,
+              "stars": 3
+            },
+            {
+              "id": "hollywood-studios-drank-blue-milk",
+              "label": "Drank blue milk",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "hollywood-studios-met-a-droid-or-a-jedi",
+              "label": "Met a droid or a Jedi",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            }
+          ]
+        },
+        {
+          "heading": "Toy Story Land",
+          "items": [
+            {
+              "id": "hollywood-studios-slinky-dog-dash",
+              "label": "Slinky Dog Dash",
+              "note": "challenge three",
+              "heightCm": 97,
+              "stars": 3
+            },
+            {
+              "id": "hollywood-studios-toy-story-mania",
+              "label": "Toy Story Mania!",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "hollywood-studios-alien-swirling-saucers",
+              "label": "Alien Swirling Saucers",
+              "note": "",
+              "heightCm": 81,
+              "stars": 2
+            }
+          ]
+        },
+        {
+          "heading": "Sunset Boulevard",
+          "items": [
+            {
+              "id": "hollywood-studios-tower-of-terror",
+              "label": "Tower of Terror",
+              "note": "challenge one",
+              "heightCm": 102,
+              "stars": 5
+            },
+            {
+              "id": "hollywood-studios-rock-n-roller-coaster-starring-the-muppets",
+              "label": "Rock 'n' Roller Coaster Starring The Muppets",
+              "note": "",
+              "heightCm": 122,
+              "stars": 5
+            },
+            {
+              "id": "hollywood-studios-beauty-and-the-beast-live-on-stage",
+              "label": "Beauty and the Beast Live on Stage",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "hollywood-studios-fantasmic",
+              "label": "Fantasmic!",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            }
+          ]
+        },
+        {
+          "heading": "The rest of the park",
+          "items": [
+            {
+              "id": "hollywood-studios-mickey-minnies-runaway-railway",
+              "label": "Mickey & Minnie's Runaway Railway",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "hollywood-studios-star-tours-the-adventures-continue",
+              "label": "Star Tours: The Adventures Continue",
+              "note": "",
+              "heightCm": 102,
+              "stars": 3
+            },
+            {
+              "id": "hollywood-studios-lightning-mcqueens-racing-academy",
+              "label": "Lightning McQueen's Racing Academy",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "hollywood-studios-indiana-jones-epic-stunt-spectacular",
+              "label": "Indiana Jones Epic Stunt Spectacular",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "hollywood-studios-disney-junior-play-dance",
+              "label": "Disney Junior Play & Dance",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "hollywood-studios-walt-disney-presents",
+              "label": "Walt Disney Presents",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "hollywood-studios-the-evening-show-on-the-chinese-theatre",
+              "label": "The evening show on the Chinese Theatre",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "animal-kingdom",
+      "name": "Disney's Animal Kingdom",
+      "groups": [
+        {
+          "heading": "Pandora: The World of Avatar",
+          "items": [
+            {
+              "id": "animal-kingdom-avatar-flight-of-passage",
+              "label": "Avatar Flight of Passage",
+              "note": "",
+              "heightCm": 112,
+              "stars": 4
+            },
+            {
+              "id": "animal-kingdom-navi-river-journey",
+              "label": "Na'vi River Journey",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "animal-kingdom-saw-pandora-glowing-after-dark",
+              "label": "Saw Pandora glowing after dark",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            }
+          ]
+        },
+        {
+          "heading": "Africa",
+          "items": [
+            {
+              "id": "animal-kingdom-kilimanjaro-safaris",
+              "label": "Kilimanjaro Safaris",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "animal-kingdom-gorilla-falls-exploration-trail",
+              "label": "Gorilla Falls Exploration Trail",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "animal-kingdom-festival-of-the-lion-king",
+              "label": "Festival of the Lion King",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            }
+          ]
+        },
+        {
+          "heading": "Asia",
+          "items": [
+            {
+              "id": "animal-kingdom-expedition-everest",
+              "label": "Expedition Everest",
+              "note": "challenge five",
+              "heightCm": 112,
+              "stars": 5
+            },
+            {
+              "id": "animal-kingdom-kali-river-rapids",
+              "label": "Kali River Rapids",
+              "note": "you will get soaked",
+              "heightCm": 97,
+              "stars": 3
+            },
+            {
+              "id": "animal-kingdom-maharajah-jungle-trek",
+              "label": "Maharajah Jungle Trek",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "animal-kingdom-feathered-friends-in-flight",
+              "label": "Feathered Friends in Flight",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            }
+          ]
+        },
+        {
+          "heading": "Discovery Island",
+          "items": [
+            {
+              "id": "animal-kingdom-zootopia-better-zoogether",
+              "label": "Zootopia: Better Zoogether!",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "animal-kingdom-walked-the-discovery-island-trails",
+              "label": "Walked the Discovery Island Trails",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "animal-kingdom-found-five-animals-carved-into-the-tree-of-life",
+              "label": "Found five animals carved into the Tree of Life",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "animal-kingdom-tree-of-life-awakenings-after-dark",
+              "label": "Tree of Life Awakenings after dark",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            }
+          ]
+        },
+        {
+          "heading": "My safari log",
+          "items": [
+            {
+              "id": "animal-kingdom-elephant",
+              "label": "Elephant",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "animal-kingdom-giraffe",
+              "label": "Giraffe",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "animal-kingdom-lion",
+              "label": "Lion",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "animal-kingdom-rhino",
+              "label": "Rhino",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "animal-kingdom-hippo",
+              "label": "Hippo",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "animal-kingdom-zebra",
+              "label": "Zebra",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "animal-kingdom-cheetah",
+              "label": "Cheetah",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "animal-kingdom-wildebeest",
+              "label": "Wildebeest",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "animal-kingdom-ostrich",
+              "label": "Ostrich",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "animal-kingdom-flamingo",
+              "label": "Flamingo",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "animal-kingdom-crocodile",
+              "label": "Crocodile",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "animal-kingdom-okapi",
+              "label": "Okapi",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "animal-kingdom-gorilla",
+              "label": "Gorilla",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "animal-kingdom-tiger",
+              "label": "Tiger",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "animal-kingdom-komodo-dragon",
+              "label": "Komodo dragon",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "animal-kingdom-giant-fruit-bat",
+              "label": "Giant fruit bat",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "animal-kingdom-meerkat",
+              "label": "Meerkat",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "animal-kingdom-macaw",
+              "label": "Macaw",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "animal-kingdom-otter",
+              "label": "Otter",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "animal-kingdom-lemur",
+              "label": "Lemur",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "universal-studios",
+      "name": "Universal Studios Florida",
+      "groups": [
+        {
+          "heading": "The Wizarding World: Diagon Alley",
+          "items": [
+            {
+              "id": "universal-studios-harry-potter-and-the-escape-from-gringotts",
+              "label": "Harry Potter and the Escape from Gringotts",
+              "note": "",
+              "heightCm": 107,
+              "stars": 4
+            },
+            {
+              "id": "universal-studios-hogwarts-express-to-hogsmeade",
+              "label": "Hogwarts Express to Hogsmeade",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "universal-studios-watched-the-dragon-breathe-fire",
+              "label": "Watched the dragon breathe fire",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "universal-studios-went-inside-ollivanders",
+              "label": "Went inside Ollivanders",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "universal-studios-found-knockturn-alley",
+              "label": "Found Knockturn Alley",
+              "note": "challenge seven",
+              "heightCm": null,
+              "stars": 3
+            },
+            {
+              "id": "universal-studios-tried-butterbeer",
+              "label": "Tried Butterbeer",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            }
+          ]
+        },
+        {
+          "heading": "Rides",
+          "items": [
+            {
+              "id": "universal-studios-revenge-of-the-mummy",
+              "label": "Revenge of the Mummy",
+              "note": "",
+              "heightCm": 122,
+              "stars": 5
+            },
+            {
+              "id": "universal-studios-transformers-the-ride-3d",
+              "label": "Transformers: The Ride-3D",
+              "note": "",
+              "heightCm": 102,
+              "stars": 4
+            },
+            {
+              "id": "universal-studios-men-in-black-alien-attack",
+              "label": "MEN IN BLACK Alien Attack",
+              "note": "",
+              "heightCm": 107,
+              "stars": 3
+            },
+            {
+              "id": "universal-studios-the-simpsons-ride",
+              "label": "The Simpsons Ride",
+              "note": "",
+              "heightCm": 102,
+              "stars": 3
+            },
+            {
+              "id": "universal-studios-despicable-me-minion-mayhem",
+              "label": "Despicable Me Minion Mayhem",
+              "note": "",
+              "heightCm": 102,
+              "stars": 2
+            },
+            {
+              "id": "universal-studios-villain-con-minion-blast",
+              "label": "Villain-Con Minion Blast",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "universal-studios-e-t-adventure",
+              "label": "E.T. Adventure",
+              "note": "",
+              "heightCm": 86,
+              "stars": 2
+            },
+            {
+              "id": "universal-studios-woody-woodpeckers-nuthouse-coaster",
+              "label": "Woody Woodpecker's Nuthouse Coaster",
+              "note": "",
+              "heightCm": 91,
+              "stars": 2
+            },
+            {
+              "id": "universal-studios-kang-kodos-twirl-n-hurl",
+              "label": "Kang & Kodos' Twirl 'n' Hurl",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            }
+          ]
+        },
+        {
+          "heading": "Shows",
+          "items": [
+            {
+              "id": "universal-studios-the-bourne-stuntacular",
+              "label": "The Bourne Stuntacular",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "universal-studios-animal-actors-on-location",
+              "label": "Animal Actors on Location!",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "universal-studios-the-night-time-lagoon-show",
+              "label": "The night-time lagoon show",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "islands-of-adventure",
+      "name": "Islands of Adventure",
+      "groups": [
+        {
+          "heading": "The Wizarding World: Hogsmeade",
+          "items": [
+            {
+              "id": "islands-of-adventure-harry-potter-and-the-forbidden-journey",
+              "label": "Harry Potter and the Forbidden Journey",
+              "note": "",
+              "heightCm": 122,
+              "stars": 5
+            },
+            {
+              "id": "islands-of-adventure-hagrids-magical-creatures-motorbike-adventure",
+              "label": "Hagrid's Magical Creatures Motorbike Adventure",
+              "note": "",
+              "heightCm": 122,
+              "stars": 5
+            },
+            {
+              "id": "islands-of-adventure-flight-of-the-hippogriff",
+              "label": "Flight of the Hippogriff",
+              "note": "",
+              "heightCm": 91,
+              "stars": 3
+            },
+            {
+              "id": "islands-of-adventure-hogwarts-express-to-kings-cross",
+              "label": "Hogwarts Express to King's Cross",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "islands-of-adventure-cast-a-spell-with-an-interactive-wand",
+              "label": "Cast a spell with an interactive wand",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "islands-of-adventure-saw-hogwarts-castle-up-close",
+              "label": "Saw Hogwarts Castle up close",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            }
+          ]
+        },
+        {
+          "heading": "Jurassic Park",
+          "items": [
+            {
+              "id": "islands-of-adventure-jurassic-world-velocicoaster",
+              "label": "Jurassic World VelociCoaster",
+              "note": "",
+              "heightCm": 130,
+              "stars": 5
+            },
+            {
+              "id": "islands-of-adventure-skull-island-reign-of-kong",
+              "label": "Skull Island: Reign of Kong",
+              "note": "",
+              "heightCm": 91,
+              "stars": 4
+            },
+            {
+              "id": "islands-of-adventure-pteranodon-flyers",
+              "label": "Pteranodon Flyers",
+              "note": "",
+              "heightCm": 91,
+              "stars": 3
+            },
+            {
+              "id": "islands-of-adventure-climbed-all-over-camp-jurassic",
+              "label": "Climbed all over Camp Jurassic",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "islands-of-adventure-met-a-raptor-at-the-raptor-encounter",
+              "label": "Met a raptor at the Raptor Encounter",
+              "note": "",
+              "heightCm": null,
+              "stars": 3
+            }
+          ]
+        },
+        {
+          "heading": "Toon Lagoon",
+          "items": [
+            {
+              "id": "islands-of-adventure-dudley-do-rights-ripsaw-falls",
+              "label": "Dudley Do-Right's Ripsaw Falls",
+              "note": "challenge two",
+              "heightCm": 112,
+              "stars": 4
+            },
+            {
+              "id": "islands-of-adventure-popeye-blutos-bilge-rat-barges",
+              "label": "Popeye & Bluto's Bilge-Rat Barges",
+              "note": "",
+              "heightCm": 107,
+              "stars": 3
+            },
+            {
+              "id": "islands-of-adventure-me-ship-the-olive",
+              "label": "Me Ship, The Olive",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            }
+          ]
+        },
+        {
+          "heading": "Marvel Super Hero Island",
+          "items": [
+            {
+              "id": "islands-of-adventure-doctor-dooms-fearfall",
+              "label": "Doctor Doom's Fearfall",
+              "note": "you clear it by three",
+              "heightCm": 132,
+              "stars": 5
+            },
+            {
+              "id": "islands-of-adventure-spider-man",
+              "label": "Spider-Man",
+              "note": "challenge six",
+              "heightCm": 102,
+              "stars": 3
+            },
+            {
+              "id": "islands-of-adventure-storm-force-accelatron",
+              "label": "Storm Force Accelatron",
+              "note": "",
+              "heightCm": null,
+              "stars": 3
+            }
+          ]
+        },
+        {
+          "heading": "Seuss Landing",
+          "items": [
+            {
+              "id": "islands-of-adventure-the-cat-in-the-hat",
+              "label": "The Cat in the Hat",
+              "note": "",
+              "heightCm": 91,
+              "stars": 2
+            },
+            {
+              "id": "islands-of-adventure-one-fish-two-fish-red-fish-blue-fish",
+              "label": "One Fish, Two Fish, Red Fish, Blue Fish",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "islands-of-adventure-caro-seuss-el",
+              "label": "Caro-Seuss-el",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "islands-of-adventure-the-high-in-the-sky-seuss-trolley-train-ride",
+              "label": "The High in the Sky Seuss Trolley Train Ride!",
+              "note": "",
+              "heightCm": 86,
+              "stars": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "epic-universe",
+      "name": "Epic Universe",
+      "groups": [
+        {
+          "heading": "Celestial Park",
+          "items": [
+            {
+              "id": "epic-universe-constellation-carousel",
+              "label": "Constellation Carousel",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "epic-universe-stardust-racers",
+              "label": "Stardust Racers",
+              "note": "",
+              "heightCm": 122,
+              "stars": 5
+            },
+            {
+              "id": "epic-universe-found-all-five-portals",
+              "label": "Found all five portals",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            }
+          ]
+        },
+        {
+          "heading": "Super Nintendo World",
+          "items": [
+            {
+              "id": "epic-universe-mario-kart-bowsers-challenge",
+              "label": "Mario Kart: Bowser's Challenge",
+              "note": "",
+              "heightCm": 102,
+              "stars": 3
+            },
+            {
+              "id": "epic-universe-mine-cart-madness",
+              "label": "Mine-Cart Madness",
+              "note": "",
+              "heightCm": 91,
+              "stars": 4
+            },
+            {
+              "id": "epic-universe-yoshis-adventure",
+              "label": "Yoshi's Adventure",
+              "note": "",
+              "heightCm": 86,
+              "stars": 1
+            },
+            {
+              "id": "epic-universe-wore-a-power-up-band",
+              "label": "Wore a Power-Up Band",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "epic-universe-punched-a-question-mark-block",
+              "label": "Punched a question-mark block",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "epic-universe-collected-three-digital-keys",
+              "label": "Collected three digital keys",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            }
+          ]
+        },
+        {
+          "heading": "The Wizarding World: Ministry of Magic",
+          "items": [
+            {
+              "id": "epic-universe-harry-potter-and-the-battle-at-the-ministry",
+              "label": "Harry Potter and the Battle at the Ministry",
+              "note": "",
+              "heightCm": 102,
+              "stars": 4
+            },
+            {
+              "id": "epic-universe-le-cirque-arcanus-show",
+              "label": "Le Cirque Arcanus show",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "epic-universe-walked-through-1920s-paris",
+              "label": "Walked through 1920s Paris",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            }
+          ]
+        },
+        {
+          "heading": "How to Train Your Dragon: Isle of Berk",
+          "items": [
+            {
+              "id": "epic-universe-hiccups-wing-gliders",
+              "label": "Hiccup's Wing Gliders",
+              "note": "",
+              "heightCm": 102,
+              "stars": 4
+            },
+            {
+              "id": "epic-universe-dragon-racers-rally",
+              "label": "Dragon Racer's Rally",
+              "note": "",
+              "heightCm": 122,
+              "stars": 5
+            },
+            {
+              "id": "epic-universe-fyre-drill",
+              "label": "Fyre Drill",
+              "note": "soak a grown-up",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "epic-universe-the-untrainable-dragon-show",
+              "label": "The Untrainable Dragon show",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "epic-universe-viking-training-camp",
+              "label": "Viking Training Camp",
+              "note": "",
+              "heightCm": null,
+              "stars": 2
+            },
+            {
+              "id": "epic-universe-met-toothless",
+              "label": "Met Toothless",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            }
+          ]
+        },
+        {
+          "heading": "Dark Universe (challenge seven)",
+          "items": [
+            {
+              "id": "epic-universe-curse-of-the-werewolf",
+              "label": "Curse of the Werewolf",
+              "note": "",
+              "heightCm": 102,
+              "stars": 4
+            },
+            {
+              "id": "epic-universe-monsters-unchained",
+              "label": "Monsters Unchained",
+              "note": "",
+              "heightCm": 122,
+              "stars": 5
+            },
+            {
+              "id": "epic-universe-walked-the-whole-village",
+              "label": "Walked the whole village",
+              "note": "",
+              "heightCm": null,
+              "stars": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "everywhere-else",
+      "name": "Everywhere else",
+      "groups": [
+        {
+          "heading": "Disney's Blizzard Beach",
+          "items": [
+            {
+              "id": "everywhere-else-cross-country-creek-lazy-river",
+              "label": "Cross Country Creek lazy river",
+              "note": "",
+              "heightCm": null,
+              "stars": 1
+            },
+            {
+              "id": "everywhere-else-teamboat-springs-family-raft",
+              "label": "Teamboat Springs family raft",
+              "note": "",
+              "heightCm": null,
+              "stars": 3
+            },
+            {
+              "id": "everywhere-else-toboggan-racers",
+              "label": "Toboggan Racers",
+              "note": "",
+              "heightCm": null,
+              "stars": 3
+            },
+            {
+              "id": "everywhere-else-runoff-rapids",
+              "label": "Runoff Rapids",
+              "note": "",
+              "heightCm": null,
+              "stars": 4
+            },
+            {
+              "id": "everywhere-else-slush-gusher",
+              "label": "Slush Gusher",
+              "note": "",
+              "heightCm": 122,
+              "stars": 4
+            },
+            {
+              "id": "everywhere-else-summit-plummet",
+              "label": "Summit Plummet",
+              "note": "the terrifying one",
+              "heightCm": 122,
+              "stars": 5
+            }
+          ]
+        },
+        {
+          "heading": "Disney Springs",
+          "items": [
+            {
+              "id": "everywhere-else-went-in-the-enormous-world-of-disney-shop",
+              "label": "Went in the enormous World of Disney shop",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "everywhere-else-rode-the-aerophile-balloon",
+              "label": "Rode the Aerophile balloon",
+              "note": "",
+              "heightCm": null,
+              "stars": 3
+            },
+            {
+              "id": "everywhere-else-watched-a-street-performer",
+              "label": "Watched a street performer",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "everywhere-else-ate-a-giant-pudding",
+              "label": "Ate a giant pudding",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            }
+          ]
+        },
+        {
+          "heading": "Universal CityWalk",
+          "items": [
+            {
+              "id": "everywhere-else-had-dinner-at-citywalk",
+              "label": "Had dinner at CityWalk",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "everywhere-else-found-the-big-universal-globe",
+              "label": "Found the big Universal globe",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            }
+          ]
+        },
+        {
+          "heading": "All-Star Movies Resort",
+          "items": [
+            {
+              "id": "everywhere-else-swam-in-the-fantasia-pool",
+              "label": "Swam in the Fantasia pool",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "everywhere-else-found-the-giant-dalmatians",
+              "label": "Found the giant Dalmatians",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "everywhere-else-found-the-giant-buzz-lightyear",
+              "label": "Found the giant Buzz Lightyear",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "everywhere-else-watched-a-movie-under-the-stars",
+              "label": "Watched a Movie Under the Stars",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "everywhere-else-had-breakfast-at-the-food-court",
+              "label": "Had breakfast at the food court",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "everywhere-else-got-a-window-seat-on-the-bus",
+              "label": "Got a window seat on the bus",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            }
+          ]
+        },
+        {
+          "heading": "Disney transport",
+          "items": [
+            {
+              "id": "everywhere-else-the-monorail",
+              "label": "The monorail",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "everywhere-else-the-skyliner-cable-car",
+              "label": "The Skyliner cable car",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "everywhere-else-a-boat",
+              "label": "A boat",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "everywhere-else-a-bus",
+              "label": "A bus",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "characters",
+      "name": "Characters I met",
+      "groups": [
+        {
+          "heading": "Characters I met",
+          "items": [
+            {
+              "id": "characters-mickey-mouse",
+              "label": "Mickey Mouse",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-minnie-mouse",
+              "label": "Minnie Mouse",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-donald-duck",
+              "label": "Donald Duck",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-daisy-duck",
+              "label": "Daisy Duck",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-goofy",
+              "label": "Goofy",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-pluto",
+              "label": "Pluto",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-chip-and-dale",
+              "label": "Chip and Dale",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-belle",
+              "label": "Belle",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-cinderella",
+              "label": "Cinderella",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-ariel",
+              "label": "Ariel",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-rapunzel",
+              "label": "Rapunzel",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-tiana",
+              "label": "Tiana",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-jasmine",
+              "label": "Jasmine",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-snow-white",
+              "label": "Snow White",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-aurora",
+              "label": "Aurora",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-merida",
+              "label": "Merida",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-anna",
+              "label": "Anna",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-elsa",
+              "label": "Elsa",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-moana",
+              "label": "Moana",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-mirabel",
+              "label": "Mirabel",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-winnie-the-pooh",
+              "label": "Winnie the Pooh",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-tigger",
+              "label": "Tigger",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-stitch",
+              "label": "Stitch",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-buzz-lightyear",
+              "label": "Buzz Lightyear",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-woody",
+              "label": "Woody",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-joy",
+              "label": "Joy",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-baymax",
+              "label": "Baymax",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-a-star-wars-character",
+              "label": "A Star Wars character",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-judy-hopps-or-nick-wilde",
+              "label": "Judy Hopps or Nick Wilde",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-a-minion",
+              "label": "A Minion",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-spider-man",
+              "label": "Spider-Man",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-optimus-prime",
+              "label": "Optimus Prime",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-mario",
+              "label": "Mario",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-luigi",
+              "label": "Luigi",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-princess-peach",
+              "label": "Princess Peach",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "characters-toothless",
+              "label": "Toothless",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "photos",
+      "name": "Photo missions",
+      "groups": [
+        {
+          "heading": "Photo missions",
+          "items": [
+            {
+              "id": "photos-me-in-front-of-cinderella-castle",
+              "label": "Me in front of Cinderella Castle",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "photos-me-and-the-partners-statue-of-walt-and-mickey",
+              "label": "Me and the Partners statue of Walt and Mickey",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "photos-me-with-spaceship-earth-behind-me",
+              "label": "Me with Spaceship Earth behind me",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "photos-me-at-the-purple-wall",
+              "label": "Me at the purple wall",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "photos-me-looking-up-at-the-hollywood-tower-hotel",
+              "label": "Me looking up at the Hollywood Tower Hotel",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "photos-me-in-front-of-the-chinese-theatre",
+              "label": "Me in front of the Chinese Theatre",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "photos-me-under-the-tree-of-life",
+              "label": "Me under the Tree of Life",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "photos-me-in-glowing-pandora-after-dark",
+              "label": "Me in glowing Pandora after dark",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "photos-me-at-the-spinning-universal-globe",
+              "label": "Me at the spinning Universal globe",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "photos-me-in-the-snow-at-hogsmeade",
+              "label": "Me in the snow at Hogsmeade",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "photos-me-under-the-diagon-alley-dragon",
+              "label": "Me under the Diagon Alley dragon",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "photos-me-going-into-the-mario-pipe",
+              "label": "Me going into the Mario pipe",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "photos-me-with-the-dalmatians-at-our-hotel",
+              "label": "Me with the Dalmatians at our hotel",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "photos-all-three-of-us-somewhere-brilliant",
+              "label": "All three of us, somewhere brilliant",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            }
+          ]
+        },
+        {
+          "heading": "Bonus shots",
+          "items": [
+            {
+              "id": "photos-a-ride-photo-where-my-face-is-ridiculous",
+              "label": "A ride photo where my face is ridiculous",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "photos-the-aeroplane-wing-from-my-window",
+              "label": "The aeroplane wing from my window",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "photos-something-too-good-looking-to-eat",
+              "label": "Something too good-looking to eat",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "photos-fireworks",
+              "label": "Fireworks",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "photos-a-photo-i-took-myself",
+              "label": "A photo I took myself",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "photos-mummy-and-daddy-looking-silly",
+              "label": "Mummy and Daddy looking silly",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "missions",
+      "name": "Magical missions",
+      "groups": [
+        {
+          "heading": "Things to taste",
+          "items": [
+            {
+              "id": "missions-a-mickey-shaped-ice-cream-bar",
+              "label": "A Mickey-shaped ice cream bar",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "missions-a-dole-whip",
+              "label": "A Dole Whip",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "missions-a-mickey-pretzel",
+              "label": "A Mickey pretzel",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "missions-a-mickey-waffle-for-breakfast",
+              "label": "A Mickey waffle for breakfast",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "missions-a-turkey-leg",
+              "label": "A turkey leg",
+              "note": "or watch Daddy try",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "missions-something-i-have-never-eaten-before",
+              "label": "Something I have never eaten before",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "missions-pudding-before-dinner-once",
+              "label": "Pudding before dinner, once",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            }
+          ]
+        },
+        {
+          "heading": "Things to do",
+          "items": [
+            {
+              "id": "missions-got-a-1st-visit-badge",
+              "label": "Got a \"1st Visit\" badge",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "missions-traded-a-pin-with-a-cast-member",
+              "label": "Traded a pin with a cast member",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "missions-found-three-hidden-mickeys",
+              "label": "Found three hidden Mickeys",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "missions-waved-at-someone-on-a-parade-float",
+              "label": "Waved at someone on a parade float",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "missions-sat-at-the-very-front-of-a-ride",
+              "label": "Sat at the very front of a ride",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "missions-rode-something-twice-in-a-row",
+              "label": "Rode something twice in a row",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "missions-chose-where-we-went-for-a-whole-morning",
+              "label": "Chose where we went for a whole morning",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "missions-danced-in-a-park",
+              "label": "Danced in a park",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "missions-got-caught-in-a-florida-rain-shower",
+              "label": "Got caught in a Florida rain shower",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "missions-stayed-out-until-a-park-closed",
+              "label": "Stayed out until a park closed",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "missions-said-thank-you-to-someone-cleaning-up",
+              "label": "Said thank you to someone cleaning up",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "missions-spotted-a-lizard",
+              "label": "Spotted a lizard",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "missions-saw-the-castle-lit-up-for-christmas",
+              "label": "Saw the castle lit up for Christmas",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            }
+          ]
+        },
+        {
+          "heading": "Brave things",
+          "items": [
+            {
+              "id": "missions-went-on-a-ride-i-was-scared-of",
+              "label": "Went on a ride I was scared of",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "missions-went-in-a-dark-ride-without-holding-a-hand",
+              "label": "Went in a dark ride without holding a hand",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "missions-asked-a-cast-member-a-question-by-myself",
+              "label": "Asked a cast member a question by myself",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "missions-kept-my-eyes-open-on-a-big-drop",
+              "label": "Kept my eyes open on a big drop",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            },
+            {
+              "id": "missions-tried-again-after-saying-no-the-first-time",
+              "label": "Tried again after saying no the first time",
+              "note": "",
+              "heightCm": null,
+              "stars": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "challenges": [
+    {
+      "id": "challenge-1",
+      "number": 1,
+      "title": "The drop",
+      "where": "The Twilight Zone Tower of Terror · Hollywood Studios",
+      "points": 10,
+      "ticks": [
+        {
+          "id": "challenge-1-i-rode-it",
+          "label": "I rode it"
+        },
+        {
+          "id": "challenge-1-i-rode-it-more-than-once",
+          "label": "I rode it more than once"
+        },
+        {
+          "id": "challenge-1-i-queued-up-and-changed-my-m",
+          "label": "I queued up and changed my mind, which also takes guts"
+        },
+        {
+          "id": "challenge-1-i-watched-from-the-bottom-an",
+          "label": "I watched from the bottom and cheered"
+        }
+      ],
+      "prompts": [
+        {
+          "id": "challenge-1-q-how-i-feel-looking-up-at-it",
+          "label": "How I feel looking up at it from Sunset Boulevard"
+        },
+        {
+          "id": "challenge-1-q-count-the-drops-how-many-wer",
+          "label": "Count the drops. How many were there?"
+        },
+        {
+          "id": "challenge-1-q-what-the-first-one-actually",
+          "label": "What the first one actually felt like"
+        }
+      ],
+      "drawBoxes": 1
+    },
+    {
+      "id": "challenge-2",
+      "number": 2,
+      "title": "The soaking",
+      "where": "Dudley Do-Right's Ripsaw Falls · Islands of Adventure",
+      "points": 10,
+      "ticks": [
+        {
+          "id": "challenge-2-i-rode-it",
+          "label": "I rode it"
+        },
+        {
+          "id": "challenge-2-i-sat-in-the-front",
+          "label": "I sat in the front"
+        },
+        {
+          "id": "challenge-2-i-put-my-hands-up-on-the-big",
+          "label": "I put my hands up on the big drop"
+        },
+        {
+          "id": "challenge-2-i-fired-the-water-cannons-at",
+          "label": "I fired the water cannons at somebody else's log"
+        },
+        {
+          "id": "challenge-2-i-went-round-again-while-sti",
+          "label": "I went round again while still wet"
+        }
+      ],
+      "prompts": [
+        {
+          "id": "challenge-2-q-give-each-of-us-a-wetness-sc",
+          "label": "Give each of us a wetness score out of ten. Be fair. Then decide the winner."
+        },
+        {
+          "id": "challenge-2-q-wettest-person-and-how-long",
+          "label": "Wettest person, and how long they stayed grumpy about it"
+        }
+      ],
+      "drawBoxes": 0
+    },
+    {
+      "id": "challenge-3",
+      "number": 3,
+      "title": "Your first coaster",
+      "where": "Slinky Dog Dash · Hollywood Studios",
+      "points": 10,
+      "ticks": [
+        {
+          "id": "challenge-3-i-rode-it",
+          "label": "I rode it"
+        },
+        {
+          "id": "challenge-3-i-rode-it-after-dark-when-th",
+          "label": "I rode it after dark, when the whole land lights up"
+        },
+        {
+          "id": "challenge-3-i-had-my-hands-up-for-the-se",
+          "label": "I had my hands up for the second launch"
+        },
+        {
+          "id": "challenge-3-i-sat-right-at-the-front",
+          "label": "I sat right at the front"
+        },
+        {
+          "id": "challenge-3-i-sat-right-at-the-back-whic",
+          "label": "I sat right at the back, which is faster over the hills"
+        },
+        {
+          "id": "challenge-3-loved-it",
+          "label": "Loved it"
+        },
+        {
+          "id": "challenge-3-liked-it-but-that-was-plenty",
+          "label": "Liked it, but that was plenty"
+        },
+        {
+          "id": "challenge-3-not-for-me",
+          "label": "Not for me"
+        }
+      ],
+      "prompts": [
+        {
+          "id": "challenge-3-q-the-moment-you-get-off-befor",
+          "label": "The moment you get off, before you think about it too hard: did you love it?"
+        },
+        {
+          "id": "challenge-3-q-if-you-loved-it-name-the-big",
+          "label": "If you loved it, name the bigger coaster you now want to try"
+        },
+        {
+          "id": "challenge-3-q-come-back-at-the-end-of-the",
+          "label": "Come back at the end of the holiday. Did you do it?"
+        }
+      ],
+      "drawBoxes": 0
+    },
+    {
+      "id": "challenge-4",
+      "number": 4,
+      "title": "Lying down",
+      "where": "TRON Lightcycle / Run · Magic Kingdom",
+      "points": 10,
+      "ticks": [
+        {
+          "id": "challenge-4-open-the-whole-way",
+          "label": "Open the whole way"
+        },
+        {
+          "id": "challenge-4-open-then-shut-then-open-aga",
+          "label": "Open, then shut, then open again"
+        },
+        {
+          "id": "challenge-4-shut-and-im-not-sorry",
+          "label": "Shut, and I'm not sorry"
+        },
+        {
+          "id": "challenge-4-i-rode-it",
+          "label": "I rode it"
+        },
+        {
+          "id": "challenge-4-i-rode-a-lightcycle-rather-t",
+          "label": "I rode a lightcycle rather than the seated carriage"
+        },
+        {
+          "id": "challenge-4-i-rode-it-after-dark",
+          "label": "I rode it after dark"
+        },
+        {
+          "id": "challenge-4-i-asked-to-go-straight-back",
+          "label": "I asked to go straight back on"
+        }
+      ],
+      "prompts": [
+        {
+          "id": "challenge-4-q-be-completely-honest-were-yo",
+          "label": "Be completely honest. Were your eyes open or shut for the launch?"
+        },
+        {
+          "id": "challenge-4-q-lying-down-instead-of-sittin",
+          "label": "Lying down instead of sitting up made it feel"
+        },
+        {
+          "id": "challenge-4-q-slinky-dog-dash-expedition-e",
+          "label": "Slinky Dog Dash, Expedition Everest, TRON. Best first."
+        }
+      ],
+      "drawBoxes": 0
+    },
+    {
+      "id": "challenge-5",
+      "number": 5,
+      "title": "Backwards in the dark",
+      "where": "Expedition Everest · Animal Kingdom",
+      "points": 10,
+      "ticks": [
+        {
+          "id": "challenge-5-i-rode-it",
+          "label": "I rode it"
+        },
+        {
+          "id": "challenge-5-i-kept-my-eyes-open-going-ba",
+          "label": "I kept my eyes open going backwards"
+        },
+        {
+          "id": "challenge-5-i-saw-the-yeti",
+          "label": "I saw the yeti"
+        },
+        {
+          "id": "challenge-5-i-did-not-scream-once-be-hon",
+          "label": "I did not scream once (be honest)"
+        }
+      ],
+      "prompts": [
+        {
+          "id": "challenge-5-q-draw-the-yeti-exactly-as-you",
+          "label": "Draw the yeti exactly as you saw it. You only get one second, so most people get it wrong. That is the fun bit."
+        },
+        {
+          "id": "challenge-5-q-going-backwards-in-the-dark",
+          "label": "Going backwards in the dark was:"
+        }
+      ],
+      "drawBoxes": 1
+    },
+    {
+      "id": "challenge-6",
+      "number": 6,
+      "title": "The drop that isn't there",
+      "where": "The Amazing Adventures of Spider-Man · Islands of Adventure",
+      "points": 10,
+      "ticks": [
+        {
+          "id": "challenge-6-no-it-felt-completely-real",
+          "label": "No. It felt completely real."
+        },
+        {
+          "id": "challenge-6-sort-of-i-knew-but-my-tummy",
+          "label": "Sort of. I knew, but my tummy didn't."
+        },
+        {
+          "id": "challenge-6-yes-i-worked-out-how-they-di",
+          "label": "Yes, I worked out how they did it."
+        },
+        {
+          "id": "challenge-6-i-rode-it",
+          "label": "I rode it"
+        },
+        {
+          "id": "challenge-6-i-kept-the-3d-glasses-on-the",
+          "label": "I kept the 3D glasses on the whole way"
+        },
+        {
+          "id": "challenge-6-i-rode-it-twice-to-check",
+          "label": "I rode it twice to check"
+        },
+        {
+          "id": "challenge-6-i-spotted-stan-lee-hidden-so",
+          "label": "I spotted Stan Lee hidden somewhere in the ride"
+        }
+      ],
+      "prompts": [
+        {
+          "id": "challenge-6-q-before-you-ride-write-down-w",
+          "label": "Before you ride, write down whether you think you'll be able to tell it isn't real"
+        },
+        {
+          "id": "challenge-6-q-afterwards-could-you",
+          "label": "Afterwards: could you?"
+        },
+        {
+          "id": "challenge-6-q-if-you-worked-it-out-explain",
+          "label": "If you worked it out, explain how"
+        }
+      ],
+      "drawBoxes": 0
+    },
+    {
+      "id": "challenge-7",
+      "number": 7,
+      "title": "The Spooky Trail",
+      "where": "Three places · no height rule, just nerve",
+      "points": 10,
+      "ticks": [
+        {
+          "id": "challenge-7-the-haunted-mansion-magic-ki",
+          "label": "The Haunted Mansion · Magic Kingdom"
+        },
+        {
+          "id": "challenge-7-knockturn-alley-universal-st",
+          "label": "Knockturn Alley · Universal Studios Florida"
+        },
+        {
+          "id": "challenge-7-the-dark-universe-village-ep",
+          "label": "The Dark Universe village · Epic Universe"
+        },
+        {
+          "id": "challenge-7-i-walked-the-dark-universe-v",
+          "label": "I walked the Dark Universe village without holding a hand"
+        },
+        {
+          "id": "challenge-7-i-found-the-hidden-entrance",
+          "label": "I found the hidden entrance to Knockturn Alley by myself"
+        },
+        {
+          "id": "challenge-7-i-found-the-stretching-room",
+          "label": "I found the stretching room portraits in the Haunted Mansion"
+        },
+        {
+          "id": "challenge-7-a-monster-jumped-out-and-i-d",
+          "label": "A monster jumped out and I didn't jump"
+        },
+        {
+          "id": "challenge-7-i-made-mummy-or-daddy-jump-i",
+          "label": "I made Mummy or Daddy jump instead"
+        }
+      ],
+      "prompts": [
+        {
+          "id": "challenge-7-q-rank-them-from-least-spooky",
+          "label": "Rank them from least spooky to most spooky, once you've done all three"
+        }
+      ],
+      "drawBoxes": 0
+    }
+  ],
+  "diaryDays": [
+    {
+      "id": "day-01",
+      "dayNumber": 1,
+      "date": "2026-11-02",
+      "label": "Monday 2 November",
+      "going_home": false
+    },
+    {
+      "id": "day-02",
+      "dayNumber": 2,
+      "date": "2026-11-03",
+      "label": "Tuesday 3 November",
+      "going_home": false
+    },
+    {
+      "id": "day-03",
+      "dayNumber": 3,
+      "date": "2026-11-04",
+      "label": "Wednesday 4 November",
+      "going_home": false
+    },
+    {
+      "id": "day-04",
+      "dayNumber": 4,
+      "date": "2026-11-05",
+      "label": "Thursday 5 November",
+      "going_home": false
+    },
+    {
+      "id": "day-05",
+      "dayNumber": 5,
+      "date": "2026-11-06",
+      "label": "Friday 6 November",
+      "going_home": false
+    },
+    {
+      "id": "day-06",
+      "dayNumber": 6,
+      "date": "2026-11-07",
+      "label": "Saturday 7 November",
+      "going_home": false
+    },
+    {
+      "id": "day-07",
+      "dayNumber": 7,
+      "date": "2026-11-08",
+      "label": "Sunday 8 November",
+      "going_home": false
+    },
+    {
+      "id": "day-08",
+      "dayNumber": 8,
+      "date": "2026-11-09",
+      "label": "Monday 9 November",
+      "going_home": false
+    },
+    {
+      "id": "day-09",
+      "dayNumber": 9,
+      "date": "2026-11-10",
+      "label": "Tuesday 10 November",
+      "going_home": false
+    },
+    {
+      "id": "day-10",
+      "dayNumber": 10,
+      "date": "2026-11-11",
+      "label": "Wednesday 11 November",
+      "going_home": false
+    },
+    {
+      "id": "day-11",
+      "dayNumber": 11,
+      "date": "2026-11-12",
+      "label": "Thursday 12 November",
+      "going_home": false
+    },
+    {
+      "id": "day-12",
+      "dayNumber": 12,
+      "date": "2026-11-13",
+      "label": "Friday 13 November",
+      "going_home": false
+    },
+    {
+      "id": "day-13",
+      "dayNumber": 13,
+      "date": "2026-11-14",
+      "label": "Saturday 14 November",
+      "going_home": false
+    },
+    {
+      "id": "day-14",
+      "dayNumber": 14,
+      "date": "2026-11-15",
+      "label": "Sunday 15 November",
+      "going_home": false
+    },
+    {
+      "id": "day-15",
+      "dayNumber": 15,
+      "date": "2026-11-16",
+      "label": "Monday 16 November",
+      "going_home": true
+    }
+  ],
+  "freeText": [
+    {
+      "id": "txt-this-book-belongs-to-my-name-is",
+      "page": "This book belongs to",
+      "label": "My name is",
+      "lines": 5,
+      "multiline": true
+    },
+    {
+      "id": "txt-getting-there-our-flight-number",
+      "page": "Getting there",
+      "label": "Our flight number",
+      "lines": 3,
+      "multiline": true
+    },
+    {
+      "id": "txt-magic-kingdom-the-bit-i-will-still-remember",
+      "page": "Magic Kingdom",
+      "label": "The bit I will still remember when I'm grown up",
+      "lines": 3,
+      "multiline": true
+    },
+    {
+      "id": "txt-around-the-world-in-the-best-thing-i-ate-at-epcot",
+      "page": "Around the world in one day",
+      "label": "The best thing I ate at EPCOT",
+      "lines": 1,
+      "multiline": false
+    },
+    {
+      "id": "txt-around-the-world-in-the-country-id-most-like-to-vi",
+      "page": "Around the world in one day",
+      "label": "The country I'd most like to visit for real",
+      "lines": 1,
+      "multiline": false
+    },
+    {
+      "id": "txt-my-safari-log-my-favourite-animal-of-the-who",
+      "page": "My safari log",
+      "label": "My favourite animal of the whole holiday",
+      "lines": 1,
+      "multiline": false
+    },
+    {
+      "id": "txt-the-drop-how-i-feel-looking-up-at-it-fr",
+      "page": "The drop",
+      "label": "How I feel looking up at it from Sunset Boulevard",
+      "lines": 1,
+      "multiline": false
+    },
+    {
+      "id": "txt-the-drop-count-the-drops-how-many-were",
+      "page": "The drop",
+      "label": "Count the drops. How many were there?",
+      "lines": 2,
+      "multiline": true
+    },
+    {
+      "id": "txt-the-soaking-give-each-of-us-a-wetness-scor",
+      "page": "The soaking",
+      "label": "Give each of us a wetness score out of ten. Be fair. Then decide the winner.",
+      "lines": 2,
+      "multiline": true
+    },
+    {
+      "id": "txt-your-first-coaster-the-moment-you-get-off-before",
+      "page": "Your first coaster",
+      "label": "The moment you get off, before you think about it too hard: did you love it?",
+      "lines": 2,
+      "multiline": true
+    },
+    {
+      "id": "txt-lying-down-what-happened",
+      "page": "Lying down",
+      "label": "What happened",
+      "lines": 1,
+      "multiline": false
+    },
+    {
+      "id": "txt-backwards-in-the-dar-draw-the-yeti-exactly-as-you-s",
+      "page": "Backwards in the dark",
+      "label": "Draw the yeti exactly as you saw it. You only get one second, so most people get it wrong. That is the fun bit.",
+      "lines": 1,
+      "multiline": false
+    },
+    {
+      "id": "txt-the-drop-that-isnt-t-before-you-ride-write-down-whe",
+      "page": "The drop that isn't there",
+      "label": "Before you ride, write down whether you think you'll be able to tell it isn't real",
+      "lines": 3,
+      "multiline": true
+    },
+    {
+      "id": "txt-characters-i-met-the-best-character-i-met-and-w",
+      "page": "Characters I met",
+      "label": "The best character I met, and why",
+      "lines": 1,
+      "multiline": false
+    },
+    {
+      "id": "txt-my-brave-moments-the-scariest-thing-i-did-anywa",
+      "page": "My brave moments",
+      "label": "The scariest thing I did anyway",
+      "lines": 3,
+      "multiline": true
+    },
+    {
+      "id": "txt-my-brave-moments-a-time-i-said-no-and-that-was",
+      "page": "My brave moments",
+      "label": "A time I said no, and that was the right choice",
+      "lines": 3,
+      "multiline": true
+    },
+    {
+      "id": "txt-my-brave-moments-a-time-i-was-nervous-and-it-tu",
+      "page": "My brave moments",
+      "label": "A time I was nervous and it turned out brilliant",
+      "lines": 2,
+      "multiline": true
+    },
+    {
+      "id": "txt-my-brave-moments-something-i-can-do-now-that-i",
+      "page": "My brave moments",
+      "label": "Something I can do now that I couldn't before",
+      "lines": 2,
+      "multiline": true
+    },
+    {
+      "id": "txt-my-brave-moments-the-ride-i-want-to-go-straight",
+      "page": "My brave moments",
+      "label": "The ride I want to go straight back on",
+      "lines": 1,
+      "multiline": false
+    },
+    {
+      "id": "txt-my-official-top-ten-the-funniest-thing-that-happen",
+      "page": "My official top ten",
+      "label": "The funniest thing that happened",
+      "lines": 2,
+      "multiline": true
+    },
+    {
+      "id": "txt-my-official-top-ten-where-i-want-to-go-next-time",
+      "page": "My official top ten",
+      "label": "Where I want to go next time",
+      "lines": 1,
+      "multiline": false
+    },
+    {
+      "id": "txt-my-official-top-ten-a-message-to-myself-in-ten-yea",
+      "page": "My official top ten",
+      "label": "A message to myself in ten years",
+      "lines": 2,
+      "multiline": true
+    }
+  ],
+  "drawings": [
+    {
+      "id": "draw-this-book-belongs-to",
+      "page": "This book belongs to",
+      "boxes": 1
+    },
+    {
+      "id": "draw-my-safari-log",
+      "page": "My safari log",
+      "boxes": 1
+    },
+    {
+      "id": "draw-the-drop",
+      "page": "The drop",
+      "boxes": 1
+    },
+    {
+      "id": "draw-backwards-in-the-dark",
+      "page": "Backwards in the dark",
+      "boxes": 1
+    },
+    {
+      "id": "draw-autographs",
+      "page": "Autographs",
+      "boxes": 1
+    },
+    {
+      "id": "draw-more-autographs",
+      "page": "More autographs",
+      "boxes": 1
+    },
+    {
+      "id": "draw-photo-missions",
+      "page": "Photo missions",
+      "boxes": 1
+    }
+  ]
+}

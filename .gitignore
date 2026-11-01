@@ -1,0 +1,4 @@
+# Backups hold a child's name and diary, and this repo is public
+*-backup-*.json
+*-backup-*.txt
+backups/

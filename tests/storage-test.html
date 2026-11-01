@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Storage tests</title>
+<style>body{font:16px/1.5 sans-serif;margin:16px}.ok{color:#176a2c}.bad{color:#b00020;font-weight:700}</style>
+</head>
+<body>
+<h1>Storage tests</h1>
+<p>Uses its own storage, so it never touches the real saved data. Open <code>?step=1</code>, then <code>?step=2</code> after a reload.</p>
+<ul id="out"></ul>
+<script src="../storage.js"></script>
+<script>
+const NS = 'orlando-test';
+const out = document.getElementById('out');
+const results = window.results = [];
+function check(name, pass, detail) {
+  results.push({ name, pass: !!pass, detail: detail || '' });
+  const li = document.createElement('li');
+  li.className = pass ? 'ok' : 'bad';
+  li.textContent = (pass ? 'PASS ' : 'FAIL ') + name + (detail ? ' (' + detail + ')' : '');
+  out.appendChild(li);
+}
+const wait = ms => new Promise(r => setTimeout(r, ms));
+const lsKey = n => NS + '.' + n;
+
+function wipe() {
+  Object.keys(localStorage).filter(k => k.startsWith(NS)).forEach(k => localStorage.removeItem(k));
+  return new Promise(r => {
+    const q = indexedDB.deleteDatabase(lsKey('db'));
+    q.onsuccess = q.onerror = q.onblocked = () => r();
+  });
+}
+function rawDb() {
+  return new Promise((res, rej) => {
+    const q = indexedDB.open(lsKey('db'), 1);
+    q.onsuccess = () => res(q.result);
+    q.onerror = () => rej(q.error);
+  });
+}
+async function rawIdb(action, value) {
+  const db = await rawDb();
+  const r = await new Promise((res, rej) => {
+    const tx = db.transaction('kv', action === 'get' ? 'readonly' : 'readwrite');
+    const s = tx.objectStore('kv');
+    const q = action === 'get' ? s.get('state') : action === 'del' ? s.delete('state') : s.put(value, 'state');
+    tx.oncomplete = () => res(q.result);
+    tx.onerror = () => rej(tx.error);
+  });
+  db.close();
+  return r;
+}
+
+async function step1() {
+  await wipe();
+  Store.init({ ns: NS, appVersion: 'test' });
+  const s0 = await Store.load();
+  check('first run gives a blank state with schemaVersion', s0.schemaVersion === 1 && Object.keys(s0.ticks).length === 0);
+  check('first run came from nothing', Store.health.loadedFrom === 'new');
+
+  Store.update(s => { s.ticks['magic-kingdom-jungle-cruise'] = '2026-11-04T14:22:10.000Z'; });
+  const raw = JSON.parse(localStorage.getItem(lsKey('state')));
+  check('tick reaches localStorage the same moment, no wait', !!raw.ticks['magic-kingdom-jungle-cruise']);
+
+  Store.update(s => {
+    s.diary['day-03'] = { where: 'Magic Kindom!!  teh castel', best: 'evrything', bravest: '', stars: 4 };
+    s.text['unknown-from-the-future'] = 'keep me';
+  });
+  await wait(600);
+  const idb = await rawIdb('get');
+  check('IndexedDB copy written within the delay', idb && idb.diary['day-03'] && idb.diary['day-03'].stars === 4);
+  check('her spelling is stored exactly', idb.diary['day-03'].where === 'Magic Kindom!!  teh castel');
+  localStorage.setItem(lsKey('step1done'), '1');
+  check('ready for reload', true, 'now load ?step=2');
+}
+
+async function step2() {
+  Store.init({ ns: NS, appVersion: 'test' });
+  const s = await Store.load();
+  check('tick survived a real reload', !!s.ticks['magic-kingdom-jungle-cruise']);
+  check('diary survived a real reload', s.diary['day-03'] && s.diary['day-03'].where === 'Magic Kindom!!  teh castel');
+  check('unknown keys are logged, not deleted', Store.validate(new Set(['magic-kingdom-jungle-cruise', 'day-03'])).length === 1 && s.text['unknown-from-the-future'] === 'keep me');
+
+  // IndexedDB behind localStorage, as if the tablet died inside the 300ms
+  const countBefore = s.meta.saveCount;
+  Store.update(st => { st.ticks['epcot-test-track'] = '2026-11-05T10:00:00.000Z'; });
+  await wait(0);
+  const stale = await rawIdb('get');
+  check('(setup) IndexedDB is one save behind', stale.meta.saveCount === countBefore);
+  await step2b();
+}
+
+async function reloadInPlace() {
+  // A fresh copy of storage.js gives a fresh in-memory state, same as a reload
+  await new Promise((res, rej) => {
+    const sc = document.createElement('script');
+    sc.src = '../storage.js?' + Math.random();
+    sc.onload = res; sc.onerror = rej;
+    document.head.appendChild(sc);
+  });
+  Store.init({ ns: NS, appVersion: 'test' });
+  return Store.load();
+}
+
+async function step2b() {
+  let s = await reloadInPlace();
+  check('newer localStorage beats older IndexedDB', !!s.ticks['epcot-test-track'] && Store.health.loadedFrom === 'localStorage');
+  await wait(100);
+
+  // localStorage wiped, as if only that copy were lost
+  localStorage.removeItem(lsKey('state'));
+  s = await reloadInPlace();
+  check('lost localStorage comes back from IndexedDB', !!s.ticks['epcot-test-track'] && Store.health.loadedFrom === 'IndexedDB');
+  await wait(100);
+  check('...and localStorage is refilled', !!JSON.parse(localStorage.getItem(lsKey('state'))).ticks['epcot-test-track']);
+
+  // garbage in localStorage
+  localStorage.setItem(lsKey('state'), '{"half a sav');
+  s = await reloadInPlace();
+  check('corrupt localStorage falls back to IndexedDB', !!s.ticks['epcot-test-track']);
+  await wait(100);
+
+  // a clock that jumped backwards after a flat battery
+  const good = JSON.parse(localStorage.getItem(lsKey('state')));
+  good.meta.lastSaved = '2020-01-01T00:00:00.000Z';
+  good.meta.saveCount += 5;
+  good.ticks['clock-test'] = 'x';
+  localStorage.setItem(lsKey('state'), JSON.stringify(good));
+  s = await reloadInPlace();
+  check('save counter beats a clock that went backwards', !!s.ticks['clock-test']);
+  await wait(100);
+
+  // both main copies gone, step back remains
+  const snapshot = JSON.stringify(Store.state);
+  localStorage.setItem(lsKey('state.prev'), snapshot);
+  localStorage.removeItem(lsKey('state'));
+  await rawIdb('del');
+  s = await reloadInPlace();
+  check('both copies gone, the step back copy is used', Store.health.loadedFrom === 'one step back' && !!s.ticks['epcot-test-track']);
+  await wait(100);
+
+  // second tab: older memory must not overwrite a newer save
+  const other = JSON.parse(localStorage.getItem(lsKey('state')));
+  other.ticks['from-other-tab'] = 'x';
+  other.meta.saveCount += 1;
+  localStorage.setItem(lsKey('state'), JSON.stringify(other));
+  Store.update(st => { st.ticks['from-this-tab'] = 'x'; });
+  const merged = JSON.parse(localStorage.getItem(lsKey('state')));
+  check('a second open tab does not lose entries', merged.ticks['from-other-tab'] && merged.ticks['from-this-tab']);
+  await wait(500);
+
+  // picture and backup round trip
+  const blob = new Blob([new Uint8Array([137, 80, 78, 71, 1, 2, 3, 250])], { type: 'image/png' });
+  const blobKey = await Store.putBlob(blob);
+  Store.update(st => { st.photos['photos-me-in-front-of-cinderella-castle'] = blobKey; });
+  const backup = await Store.exportBackup();
+  check('backup file name has the date', /orlando-backup-\d{4}-\d\d-\d\d\.json$/.test(backup.filename), backup.filename);
+
+  // bad files change nothing
+  const ticksBefore = Object.keys(Store.state.ticks).length;
+  let refused = 0;
+  ['not json', '{"format":"something-else"}', JSON.stringify({ format: 'orlando-adventure-backup', schemaVersion: 1, state: { nope: 1 } }),
+   JSON.stringify({ format: 'orlando-adventure-backup', schemaVersion: 99, state: Store.state })].forEach(t => {
+    try { Store.readBackup(t); } catch (e) { refused++; }
+  });
+  check('wrong or newer files are refused', refused === 4 && Object.keys(Store.state.ticks).length === ticksBefore);
+
+  const read = Store.readBackup(backup.text);
+  check('summary counts what is inside', read.summary.ticks === ticksBefore && read.summary.diaryDays === 1 && read.summary.pictures === 1, JSON.stringify(read.summary));
+
+  // wipe everything, then restore
+  await wipe();
+  s = await reloadInPlace();
+  check('(setup) tablet is empty', Object.keys(s.ticks).length === 0);
+  await Store.applyBackup(Store.readBackup(backup.text).parsed);
+  s = await reloadInPlace();
+  check('restore brings ticks and diary back after a reload', Object.keys(s.ticks).length === ticksBefore && s.diary['day-03'].where === 'Magic Kindom!!  teh castel');
+  const restored = await Store.getBlob(s.photos['photos-me-in-front-of-cinderella-castle']);
+  const bytes = restored ? new Uint8Array(await restored.arrayBuffer()) : [];
+  check('restore brings pictures back byte for byte', restored && restored.type === 'image/png' && bytes.length === 8 && bytes[7] === 250);
+  check('restore can be undone', Store.hasUndoRestore());
+
+  const undone = await Store.undoRestore();
+  check('undo puts the earlier state back', Object.keys(undone.ticks).length === 0 && !Store.hasUndoRestore());
+
+  await wipe();
+  const failed = results.filter(r => !r.pass);
+  check('ALL DONE: ' + results.length + ' checks, ' + failed.length + ' failed', failed.length === 0);
+  window.finished = true;
+}
+
+const step = new URLSearchParams(location.search).get('step');
+if (step === '1') step1().then(() => { window.finished = true; });
+if (step === '2') step2().catch(e => { check('crashed', false, e.message); window.finished = true; });
+</script>
+</body>
+</html>
