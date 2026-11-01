@@ -2,16 +2,18 @@
    Never touches saved entries: those live in storage, not in this cache.
    Bump CACHE_VERSION on every deploy, and APP_VERSION in app.js with it,
    otherwise a fix will not reach the tablet. */
-const CACHE_VERSION = 'orlando-v1';
+const CACHE_VERSION = 'orlando-v2';
 
 const SHELL = [
   './',
   './index.html',
   './app.js',
   './storage.js',
+  './activities.js',
   './styles.css',
   './fonts.css',
   './content.json',
+  './activities.json',
   './manifest.json',
   './icons/icon-192.png',
   './icons/icon-512.png'

@@ -4,7 +4,7 @@
 (function () {
   'use strict';
 
-  const APP_VERSION = '1';          // keep in step with CACHE_VERSION in sw.js
+  const APP_VERSION = '2';          // keep in step with CACHE_VERSION in sw.js
   const HEIGHT_NOTE = 'islands-of-adventure';
   const CHALLENGE_POINTS = 10;
 
@@ -579,6 +579,7 @@
   function navFor(path) {
     if (path === '#/parks' || path.indexOf('#/park/') === 0) return 'parks';
     if (path.indexOf('#/diary') === 0) return 'diary';
+    if (path.indexOf('#/activit') === 0) return 'activities';
     return 'home';
   }
 
@@ -586,7 +587,10 @@
     const path = location.hash || '#/';
     const parts = path.split('/');
     let html;
+    Activities.leave();
     if (parts[1] === 'parks') html = viewParks();
+    else if (parts[1] === 'activities') html = Activities.listHtml();
+    else if (parts[1] === 'activity') html = Activities.pageHtml(parts[2]);
     else if (parts[1] === 'park') html = viewPark(parts[2]);
     else if (parts[1] === 'diary' && parts[2]) html = viewDay(parts[2]);
     else if (parts[1] === 'diary') html = viewDiary();
@@ -638,6 +642,12 @@
       showProblem();
       return;
     }
+
+    // The tick list and diary must still open if this one file fails
+    Activities.setUi({ esc: esc, toast: toast, topbar: topbar });
+    await Activities.load().catch(function (err) {
+      console.error('Could not load activities:', err);
+    });
 
     const known = new Set();
     content.parks.forEach(function (park) {

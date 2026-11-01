@@ -38,6 +38,7 @@
       text: {},
       photos: {},
       drawings: {},
+      activities: {},
       meta: { lastSaved: '', saveCount: 0, appVersion: '', deviceLabel: '', lastBackup: '', nudgeHiddenOn: '' }
     };
   }
